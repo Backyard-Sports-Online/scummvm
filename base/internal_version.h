@@ -16,7 +16,7 @@
 #define SCUMMVM_REVISION
 #endif
 
-#define SCUMMVM_VERSION "2.5.0"
+#define SCUMMVM_VERSION "2.5.0-BYOnline1.0.0"
 
 #define SCUMMVM_VER_MAJOR 2
 #define SCUMMVM_VER_MINOR 5
