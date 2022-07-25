@@ -1,4 +1,4 @@
-ScummVM 2.5.0-BYOnline1.1.0git - OPENPANDORA README - HOW TO INSTALL
+ScummVM 2.5.0-BYOnline2.0.0 - OPENPANDORA README - HOW TO INSTALL
 ------------------------------------------------------------------------
 
 Please refer to the:

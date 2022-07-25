@@ -7,7 +7,7 @@
 #   Prologue information
 #------------------------------------------------------------------------------
 Name		: scummvm
-Version		: 2.5.0-BYOnline1.1.0git
+Version		: 2.5.0-BYOnline2.0.0
 Release		: 1
 Summary		: Graphic adventure game interpreter
 Group		: Interpreters
