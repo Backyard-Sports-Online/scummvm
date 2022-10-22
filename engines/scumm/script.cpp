@@ -585,6 +585,14 @@ int ScummEngine::readVar(uint var) {
 		if (_game.heversion >= 80) {
 			var &= 0xFFF;
 			assertRange(0, var, _numRoomVariables - 1, "room variable (reading)");
+			// When reading room variable 2 in script 2085, if it is 9, 13, 37, or 41, instead return 4
+			if (_currentRoom == 4 && vm.slot[_currentScript].number == 2085 && var == 2) {
+				if (
+					_roomVars[var] == 9 || _roomVars[var] == 13 || _roomVars[var] == 37 || _roomVars[var] == 41
+				) {
+					return 4;
+				}
+			}
 			return _roomVars[var];
 
 		} else if (_game.version <= 3 && !(_game.id == GID_INDY3 && _game.platform == Common::kPlatformFMTowns) &&
